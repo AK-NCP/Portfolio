@@ -5,7 +5,7 @@
     <link href="https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <title>Portfolio</title>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.map"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 </head>
 <body>
     <header class="header">
@@ -18,11 +18,11 @@
                         <div class="user_prof">Full-Stack Web Developer</div>
                     </div>
                 </div>
-                <div class="nav">
-                    <a class="nav_link" href="#">work</a>
-                    <a class="nav_link" href="#">about me</a>
-                    <a class="nav_link" href="#">blog</a>
-                    <a class="nav_link" href="#">contact</a>
+                <div class="nav" id="nav">
+                    <a class="nav_link" href="#" data-scroll="#work">work</a>
+                    <a class="nav_link" href="#" data-scroll="#about">about me</a>
+                    <a class="nav_link" href="#" data-scroll="#courses">blog</a>
+                    <a class="nav_link" href="mailto: anonymous@xmail.com">contact</a>
                 </div>
             </div>
         </div>
@@ -60,7 +60,7 @@
             </div>
         </div>
     </div>
-    <div class="works">
+    <div class="works" id="work">
         <div class="container">
             <h3 class="text_center">My works</h3>
             <div class="portfolio">
@@ -94,7 +94,7 @@
             </div>
         </div>
     </div>
-    <div class="about">
+    <div class="about" id="about">
         <div class="container">
             <div class="about_inner">
                 <img class="about_photo" src="images/designer_photo.jpg" alt="">
@@ -134,7 +134,7 @@
             </div>
         </div>
     </div>
-    <div class="courses">
+    <div class="courses" id="courses">
         <div class="container">
             <h3 class="text_center margin">My courses</h3>
             <div class="subtitle">I am an instructor and teach students all over the world.</div>
@@ -207,10 +207,10 @@
                     </div>
                 </div>
                 <div class="footer_nav">
-                    <a class="footer_nav_link" href="#">Work</a>
-                    <a class="footer_nav_link" href="#">About me</a>
-                    <a class="footer_nav_link" href="#">Block</a>
-                    <a class="footer_nav_link" href="#">Contact</a>
+                    <a class="footer_nav_link" href="#" data-scroll="#work">work</a>
+                    <a class="footer_nav_link" href="#" data-scroll="#about">about me</a>
+                    <a class="footer_nav_link" href="#" data-scroll="#courses">blog</a>
+                    <a class="footer_nav_link" href="mailto: anonymous@xmail.com">contact</a>
                 </div>
             </div>
         </div>
